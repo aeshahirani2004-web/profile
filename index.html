@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and profile of Your Name.">
+  <title>Your Name — Designer &amp; Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Your Name home"><span class="brand-mark">Y</span><span>your<span class="brand-accent">name</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"></path></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</span>
+        <h1>Designing with purpose.<br><span class="gradient-text">Building with care.</span></h1>
+        <p class="hero-intro">Hey, I’m <strong>Your Name</strong> — a designer and front-end developer turning thoughtful ideas into simple, delightful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta"><span>BASED IN</span><strong>Your City, Country</strong><span class="meta-divider"></span><span>WORKING WORLDWIDE</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Replace this with your profile photo" class="portrait">
+          <div class="portrait-tag"><span class="tag-sparkle">✳</span><span>Curious by nature,<br>creative by design.</span></div>
+        </div>
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A LITTLE ABOUT ME</span>
+          <h2>Good work starts<br>with <span class="gradient-text">good questions.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">I’m a multidisciplinary creative who loves making the complex feel clear.</p>
+          <p>Over the past 5 years, I’ve partnered with teams to shape digital products that feel as good to use as they look. I bring design thinking, front-end craft, and a healthy curiosity to every challenge.</p>
+          <p>When I’m away from my screen, you’ll find me exploring a new trail, collecting books, or trying a new creative hobby.</p>
+          <a class="text-link" href="#contact">More about working together <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="container stats-grid reveal">
+        <div class="stat"><strong>5<span>+</span></strong><span>YEARS CREATING</span></div>
+        <div class="stat"><strong>24</strong><span>PROJECTS SHIPPED</span></div>
+        <div class="stat"><strong>12</strong><span>HAPPY PARTNERS</span></div>
+        <div class="stat"><strong>∞</strong><span>NEW THINGS TO LEARN</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading centered reveal">
+        <span class="eyebrow">THE TOOLKIT</span>
+        <h2>Learning, making, <span class="gradient-text">growing.</span></h2>
+        <p>A foundation in design, shaped by curiosity and hands-on practice.</p>
+      </div>
+      <div class="experience-grid">
+        <article class="info-card education-card reveal">
+          <div class="card-icon" aria-hidden="true">✳</div>
+          <span class="card-label">EDUCATION</span>
+          <h3>Your Degree or Field of Study</h3>
+          <p class="card-subtitle">Your School or University</p>
+          <p>Focused on human-centered design, visual communication, and the ways people interact with technology.</p>
+          <span class="card-date">Year — Year</span>
+        </article>
+        <article class="info-card skills-card reveal">
+          <div class="card-icon" aria-hidden="true">⌘</div>
+          <span class="card-label">SKILLS &amp; TOOLS</span>
+          <h3>What I bring to the table</h3>
+          <p class="card-subtitle">A mix of thoughtful design and practical code.</p>
+          <div class="skill-list">
+            <span>UI / UX Design</span><span>HTML &amp; CSS</span><span>JavaScript</span>
+            <span>Figma</span><span>Responsive Design</span><span>Prototyping</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <span class="eyebrow">SELECTED WORK</span>
+            <h2>Made with intention.<br><span class="gradient-text">Built to make a difference.</span></h2>
+          </div>
+          <a class="text-link desktop-link" href="#contact">Have a project in mind? <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <a class="project-image image-lumen" href="#contact" aria-label="Discuss the Lumen project">
+              <div class="mock-window">
+                <div class="mock-top"><span></span><span></span><span></span><small>lumen / dashboard</small></div>
+                <div class="mock-content"><span class="mock-kicker">YOUR MONEY, IN FOCUS</span><strong>Make room<br>for what matters.</strong><i></i><div class="mock-pills"><b>Plan</b><b>Grow</b><b>Enjoy</b></div></div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-details"><div><h3>Lumen Finance</h3><p>A calmer way to build better money habits.</p></div><span class="project-type">PRODUCT DESIGN</span></div>
+          </article>
+          <article class="project-card reveal">
+            <a class="project-image image-field" href="#contact" aria-label="Discuss the Fieldnotes project">
+              <div class="field-card"><span>FIELDNOTES&nbsp; № 08</span><strong>Find your<br>way outside.</strong><i>TRAILS / STORIES / PEOPLE</i></div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-details"><div><h3>Fieldnotes Journal</h3><p>A digital home for the outdoors-curious.</p></div><span class="project-type">BRAND &amp; WEB</span></div>
+          </article>
+        </div>
+        <a class="text-link mobile-link" href="#contact">Have a project in mind? <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content reveal">
+        <span class="eyebrow"><span class="status-dot"></span> OPEN TO WHAT’S NEXT</span>
+        <h2>Have a good one<br><span class="gradient-text">in mind?</span></h2>
+        <p>I’d love to hear what you’re working on. Tell me a little about it and let’s make something meaningful together.</p>
+        <a class="button button-primary contact-button" href="mailto:hello@yourname.com">hello@yourname.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home"><span class="brand-mark">Y</span><span>your<span class="brand-accent">name</span></span></a>
+      <p>Designed with care <span aria-hidden="true">✳</span> © <span id="current-year">2025</span> Your Name</p>
+      <div class="social-links" aria-label="Social media links">
+        <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://www.instagram.com/yourusername/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
